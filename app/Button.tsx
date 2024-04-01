@@ -17,7 +17,7 @@ export default function Button(){
     return(
         // /30 makes the font 30% of original opacity
         // flex justify center (centering)
-    <div className="flex justify-center size text-4xl text-black hover:text-blue-600/50 hover:cursor-pointer " onClick={click}>{isClient && time}</div>
+    <div className="text-4xl hover:text-blue-600/50 hover:cursor-pointer select-none " onClick={click}>{isClient && time}</div>
     ) 
     // onClick is react version of onclick
 }
