@@ -1,4 +1,5 @@
 'use client';
+// test to see how react works
 import { useState, useEffect } from 'react'
  
 export default function Hydrate() {
